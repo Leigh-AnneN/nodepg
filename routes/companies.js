@@ -28,7 +28,6 @@ router.get("/", async function (req, res, next) {
 
   /**GET /companies/[code]
 Return obj of company: {company: {code, name, description}}
-
 If the company given cannot be found, this should return a 404 status response. */
 
 router.get("/:code", async function (req, res, next) {
